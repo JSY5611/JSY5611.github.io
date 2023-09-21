@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Test 게시글 입니다"
-date: {{ page.date | date_to_rfc822 }}
+date: 2023-09-22 01:08:27 +0900
 categories: Tech
 ---
 
