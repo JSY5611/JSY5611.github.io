@@ -3,9 +3,8 @@
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
   <div class="post-meta">
-    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
-      <i class="fa fa-calendar"></i> {{ page.date | date: date_format }}
+    <time class="dt-published" datetime="{{ site.date | date_to_xmlschema }}" itemprop="datePublished">
+      <i class="fa fa-calendar"></i> {{ page.date | date:"%Y-%m-%-d" }}
     </time>
 
     {%- if page.author -%}
