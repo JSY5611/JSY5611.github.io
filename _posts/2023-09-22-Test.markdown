@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Test 게시글 입니다"
+date: {{ page.date | date_to_rfc822 }}
+categories: Tech
+---
+
+# 테스트 게시물 입니다
